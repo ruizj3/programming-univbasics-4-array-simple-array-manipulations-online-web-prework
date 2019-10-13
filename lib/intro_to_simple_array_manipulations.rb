@@ -41,3 +41,23 @@ def using_insert(list_of_programming_languages,another_language)
   another_language = "Python"
   new_array = list_of_programming_languages[4].insert(another_language)
 end
+
+def using_uniq(haircuts)
+  haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
+  new_array = haircuts.uniq
+end
+
+def using_flatten(instruments)
+  instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
+  flat_array = instruments.flatten
+end
+
+def using_delete(instructors,"Steven")
+  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+  no_offense_steven = instructors.delete("Steven")
+end
+
+def using_delete_at(famous_robots,2)
+  famous_robots = ["Johnny 5", "R2D2", "Robocop"]
+  deleted_robot = famous_robots.delete_at(2)
+end 
