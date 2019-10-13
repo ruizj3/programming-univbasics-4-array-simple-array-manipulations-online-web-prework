@@ -29,3 +29,9 @@ def shift_with_args
   ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
   brands_removed = ice_cream_brands.shift(2)
 end 
+
+def using_concat(my_favorite_things,more_favs)
+  my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
+  more_favs = ["sports cars", "flatiron school"]
+  my_favorite_things.concat(more_favs)
+end 
